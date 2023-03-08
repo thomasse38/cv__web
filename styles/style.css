@@ -1,0 +1,565 @@
+body {
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* ******************************************************** */
+/* ******************************************************** */
+/* *************************header************************* */
+/* ******************************************************** */
+/* ******************************************************** */
+header {
+    text-align: center;
+    background-color: #333;
+    width: 100%;
+    height: 6%;
+}
+
+.my-navbar {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.my-navbar li {
+    float: left;
+}
+
+.my-navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-transition: color 2s;
+    transition: color 2s;
+}
+
+/* ******************************************************** */
+/* ******************************************************** */
+/* ************************* main ************************* */
+/* ******************************************************** */
+/* ******************************************************** */
+main {
+    width: 100%;
+    height: 84%;
+}
+
+/* **************************************************************** */
+/* ************************* présentation ************************* */
+/* **************************************************************** */
+#presentation {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: url(/medias/images/AdobeStock_323194972.jpeg);
+    background-size: 120%;
+}
+
+#presentation p {
+    margin-top: 5%;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 1%;
+}
+
+#presentation h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0 0.5rem;
+    animation: zoomIn;
+    --animate-repeat: 100;
+    animation-duration: 1s;
+}
+
+#presentation h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#presentation h3 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+/* ************************* présentation gauche ************************* */
+#info_presentation_gauche {
+    width: 33%;
+    margin-top: 10%;
+}
+
+/* ************************* présentation centrale ************************* */
+#photo_presentation {
+    width: 33%;
+    display: flex;
+    animation-iteration-count: 2;
+}
+
+#presentation img {
+    padding-top: 54%;
+    width: 100%;
+    height: 100%;
+}
+
+/* ************************* présentation droite ************************* */
+#info_presentation_droite {
+    width: 33%;
+    display: flex;
+    align-items: center;
+}
+
+#info_presentation_droite p {
+    font-size: larger;
+}
+
+/* ********************************************************** */
+/* ************************* bouton ************************* */
+/* ********************************************************** */
+.accueil_btn {
+    height: 40%;
+    width: 8%;
+    border-radius: 15px;
+    background-color: rgb(119, 185, 252);
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#boutton_div {
+    height: 15%;
+    text-align: right;
+}
+
+/* *************************************************************** */
+/* ************************* competences ************************* */
+/* *************************************************************** */
+#competences {
+    background-image: url(/medias/images/AdobeStock_230932361.jpeg);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-family: 'Lexend Deca' , sans-serif;
+    width: 100%;
+    height: 110%;
+}
+
+#competences h1 {
+    font-weight: 400;
+    padding-top: 1%;
+    text-align: center;
+}
+
+.liste_competences {
+    margin-left: 15%;
+    margin-top: 5%;
+    font-size: 30px;
+}
+
+.savoir_faire {
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.liste_competences p {
+    font-weight: 600;
+}
+
+#competences ul {
+    color: aqua;
+    margin-left: 100px;
+}
+/* *********************************************************** */
+/* ************************* hobbies ************************* */
+/* *********************************************************** */
+#hobbies {
+    /* columns: 3; */
+    display: flex;
+    background-image: url(/medias/images/AdobeStock_3136360131.jpg);
+    /* column-width: 100px; */
+    /* column-gap: 10%; */
+    color: aliceblue;
+    width: 100%;
+    height: 120%;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+#hobbies img {
+    width: 440px;
+    height: 300px;
+}
+
+#hobbies h1 {
+    font-size: 400%;
+    font-weight: 600;
+    font-family: 'Lexend Deca' , sans-serif;
+    text-align: center;
+    padding-bottom: 48px;
+    margin: 0 0.5rem;
+    animation: bounce;
+    --animate-repeat: 100;
+    animation-duration: 2s;
+}
+
+#hobbies p {
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#Le_numerique img {
+    padding-bottom: 48px;
+}
+
+#Le_numerique p {
+    /* padding-top: 75px; */
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#le_sport img {
+    padding-top: 41px;
+}
+
+#le_sport p {
+    /* padding-bottom: 40px; */
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#le_cinema p {
+    /* padding-top: 75px; */
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#le_cinema img {
+    padding-bottom: 48px;
+}
+
+/* #hobbies p {
+    margin: 0%;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100%;
+    background-color: rgba(32, 178, 171, 0.342);
+} */
+
+/* #hobbies img {
+    opacity: 100%;
+    display: block;
+    width: 100%;
+    height: 100%;
+} */ 
+
+/* *************************************************************** */
+/* ************************* experiences ************************* */
+/* *************************************************************** */
+#Experiences {
+    background-image: url(/medias/images/AdobeStock_275692484.jpeg);
+    background-size: 100%;
+    width: 100%;
+    height: 110%;
+    font-family: 'Manjari', sans-serif;;
+    color: rgb(255, 255, 255);
+}
+
+#Experiences h1 {
+    padding-top: 3%;
+    font-weight: 500;
+    text-align: center;
+    font-size: 240%;
+}
+
+#Experiences ul {
+    color: rgb(255, 255, 255);
+    margin-left: 2%;
+    
+}
+
+#Experiences h2 {
+    color: aqua;
+}
+
+#Liste_experiences {
+    font-size: 22px;
+    background-color: rgba(110, 120, 120, 0.342);
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 2%;
+}
+/* ******************************************************** */
+/* ******************************************************** */
+/* ************************ footer ************************ */
+/* ******************************************************** */
+/* ******************************************************** */
+
+footer {
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+}
+#footer_gauche {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+#footer_gauche a {
+    width: 8%;
+}
+
+#footer_gauche img {
+    width: 60%;
+}
+
+#git {
+    margin-left: 25%;
+}
+
+#linkedin {
+    margin-left: 20%;
+}
+
+#footer_droite {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+#div_mail {
+    width: 45%;
+}
+
+#div_mail a {
+    text-decoration: none;
+}
+
+#div_tel {
+    width: 45.5%;
+}
+
+#div_tel a {
+    text-decoration: none;
+}
+
+#footer_droite a {
+    display: flex;
+}
+
+#footer_droite img {
+    width: 8%;
+    height: 10%;
+}
+
+#footer_droite a p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* footer h1 {
+    color: aliceblue;
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#Numero h1 {
+    text-align: right;
+    font-size: 100%;
+}
+
+#Mail h1 {
+    text-align: right;
+    font-size: 100%;
+}
+
+#Linkedin img {
+    font-size: 100%;
+    text-align: left;
+} */
+
+
+/* ******************************************************** */
+/* ******************************************************** */
+/* ************************ responsive ************************ */
+/* ******************************************************** */
+/* ******************************************************** */
+/* taille pour un ipad */
+@media (min-width:700px) and (max-width: 900px) {
+
+    #presentation h1 {
+        margin-left: 20px;
+        font-size: 33px;
+    }
+    #info_presentation_droite {
+        align-items: flex-start;
+    }
+    #info_presentation_droite p {
+        font-size: small;
+        padding-top: 20px;
+        margin-right: 20px;
+        
+    }
+    #presentation {
+        height: 40%;
+    }
+    #presentation img {
+        height: 100%;
+    }
+
+    #Experiences {}
+
+    #footer_droite {
+        height: 50% n;
+    }
+}
+
+/* taille pour telephone portable */
+@media (min-width:300px) and (max-width: 500px) {
+
+    .my-navbar {
+        font-size: 10px;
+    }
+
+    #presentation h1 {
+        margin-left: 20px;
+        font-size: 90%;
+        padding-bottom: 5%;
+    }
+
+    #presentation h2 {
+        font-size: 90%;
+    }
+
+    #presentation h3 {
+        font-size: 90%;
+    }
+
+    #presentation {
+        height: 25%;
+        width: 100%;
+        
+    }
+
+    #info_presentation_droite p {
+        font-size: 6px;
+        padding-bottom: 40px;
+        padding-top: 20px;
+        margin-right: 20px;
+    }
+
+    #Experiences {
+        height: 52%; 
+    }
+
+    #Experiences h2 {
+        font-size: 90%;
+        
+    }
+
+    #Experiences h3 {
+        font-size: 90%;
+    }
+
+    #Experiences ul {
+        font-size: 10px;
+    }
+
+    #Experiences h4 {
+        font-size: 90%;
+    }
+
+    #Service_civique {
+        font-size: 10px;
+        padding-bottom: 10px;
+    }
+
+    #Experiences h5 {
+        font-size: 90%;
+    }
+
+    #Formation_Campus {
+        font-size: 10px; 
+    }
+
+    #Experiences h6 {
+        font-size: 90%;
+    }
+
+    #competences {
+        height: 45%;
+    }
+
+    #competences h1 {
+        font-size: 90%;
+    }
+
+    #competences ul h2 {
+        font-size: 90%;
+    }
+
+    #competences ul {
+        font-size: 10px;
+    }
+
+    #competences ul h3 {
+        font-size: 90%;
+    }
+
+    #hobbies {   }
+
+    #Le_numerique h1 {
+        font-size: 90%;
+    }
+    
+    #Le_numerique p {
+        font-size: small;
+    }
+
+    #Le_numerique img {
+        height: 100%;
+    }
+
+    #le_sport h1 {
+        font-size: 90%;
+    }
+
+    #le_sport p {
+        font-size: small;
+    }
+
+    #le_sport img {
+        height: 100%;
+    }
+
+    #le_cinema h1 {
+        font-size: 90%;
+    }
+
+    #le_cinema p {
+        font-size: small;
+    }
+
+    #le_cinema img {
+        height: 100%;
+    }
+
+    #footer_gauche {
+    }
+}
